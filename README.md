@@ -31,7 +31,7 @@ __Windowed Mode and Full Borderless Window Only__
 
 ## Usage
 
-Download the .exe for your chosen layout (mnemonic or grid) and run it as an administrator.
+Download the .exe for your chosen layout (mnemonic or grid) from the latest release [here](https://github.com/c64-ryan/theyarebillions-hotkeys/releases) and run it as an administrator.
 
 This tool is made with [AutoHotkey](https://www.autohotkey.com), so if you have that installed, alternatively you can download the source script and run that, but you will also need to run it as administrator. Administrative rights are necessary to give the script the ability to interact with the game window.
 
