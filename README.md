@@ -12,6 +12,7 @@ The grid layout is similar to the StarCraft 2 Grid hotkey layout as well as game
 
 ## Supported Resolutions
 
+- 1280x720
 - 1280x768
 - 1280x800
 - 1280x960
