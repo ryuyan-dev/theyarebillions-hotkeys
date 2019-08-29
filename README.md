@@ -10,8 +10,6 @@ The mnemonic hotkey layout tries to map buttons to easy to remember and easy to 
 
 The grid layout is similar to the StarCraft 2 Grid hotkey layout as well as games like Age of Empires. It maps buttons based on their positions in the menu. For example, the top left button would be Q, and the button adjacent to the right of that would be W.
 
-Both layouts add special functionality to the ESC key. If you are in a menu within the build menu (e.g. resources) you can press ESC to go back to the main build menu. This also cancels out of building placement.
-
 ## Supported Resolutions
 
 - 1280x768
