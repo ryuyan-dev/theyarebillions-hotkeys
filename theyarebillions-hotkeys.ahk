@@ -142,11 +142,11 @@ v::ClickOnButton(3, 2)
 
 #If WinActive("They Are Billions") and active_menu = "barracks"
 r::ClickOnButton(0, 0) ; Ranger
-a::ClickOnButton(0, 1) ; mArine (soldier)
-s::ClickOnButton(0, 2) ; Sniper  
+a::ClickOnButton(1, 0) ; mArine (soldier)
+s::ClickOnButton(2, 0) ; Sniper  
 
 
 #If WinActive("They Are Billions") and active_menu = "engineering"
 c::ClickOnButton(0, 0) ; luCifer
-t::ClickOnButton(0, 1) ; Thanatos
-g::ClickOnButton(0, 2) ; Goliath (titan)
+t::ClickOnButton(1, 0) ; Thanatos
+g::ClickOnButton(2, 0) ; Goliath (titan)
