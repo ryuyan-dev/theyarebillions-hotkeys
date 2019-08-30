@@ -33,9 +33,9 @@ If you use a different resolution that you don't see in the list above, please [
 
 ## Usage
 
-Download the .exe for your chosen layout (mnemonic or grid) from the latest release [here](https://github.com/c64-ryan/theyarebillions-hotkeys/releases) and run it as an administrator.
+Download the .exe for your chosen layout (mnemonic or grid) from the latest release [here](https://github.com/c64-ryan/theyarebillions-hotkeys/releases) and run it as an administrator. Administrative rights are necessary to give the script the ability to interact with the game window. 
 
-Administrative rights are necessary to give the script the ability to interact with the game window. As this tool is made with [AutoHotkey](https://www.autohotkey.com), if you have it installed, you can alternatively download the source scripts and run them manually, but you will also need to run them as administrator. If you wish to do that, download all of the scripts and then run either "theyarebillions-hotkeys.ahk" for the mnemonic layout or "theyarebillions-hotkeys-grid.ahk" for the grid layout.
+As this tool is made with [AutoHotkey](https://www.autohotkey.com), if you have it installed, you can alternatively download the source scripts and run them manually, but you will also need to run them as administrator. If you wish to do that, download all of the scripts [here](https://github.com/c64-ryan/theyarebillions-hotkeys/archive/master.zip), extract them wherever you like, and then run either `theyarebillions-hotkeys.ahk` for the mnemonic layout or `theyarebillions-hotkeys-grid.ahk` for the grid layout.
 
 While the script is running, there will be an H icon on your taskbar. You can right-click on this and hit Exit to close the script.
 
