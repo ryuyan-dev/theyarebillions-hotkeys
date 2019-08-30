@@ -233,7 +233,7 @@ getCommandCardBounds() {
 	y_min := 0
 	y_max := 0
 	
-	if (game_size[1] >= 2560) {
+	if (game_size[1] >= 2560) and (game_size[2] >= 1440) {
 		x_min := 1650
 		x_max := 2034
 	} else if (game_size[1] >= 2560) and (game_size[2] >= 1080) {
