@@ -1,6 +1,6 @@
 #Include JSON.ahk
 
-version := "v1.0.1"
+version := "v1.0.2"
 
 http := ComObjCreate("WinHttp.WinHttpRequest.5.1")
 http.Open("GET", "https://api.github.com/repos/c64-ryan/theyarebillions-hotkeys/releases", false)
