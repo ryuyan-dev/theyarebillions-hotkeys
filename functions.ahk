@@ -332,3 +332,18 @@ ClickOnButton(i, j) {
 		checkSelection()
 	}
 }
+
+checkResolution() {
+	resolution_checked := true
+	
+	supported_resolutions := "1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1600x900,1600x1024,1680x1050,1768x992,1920x1080,2560x1080,2560x1440"
+	game_size := getGameSize()
+	resolution := game_size[1] "x" game_size[2]
+
+	if resolution not in %supported_resolutions%
+	{
+		MsgBox, 4, Unsupported Resolution, % "Your resolution was detected as " resolution ". This resolution is not supported, and so this utility might not function as expected.`n`nIf you submit an issue on github, I may be able to add support for your resolution.`n`nWould you like to submit an issue?"
+		IfMsgBox Yes
+			Run % "https://github.com/c64-ryan/theyarebillions-hotkeys/issues/new?title=Support%20Resolution%20" resolution
+	}
+}

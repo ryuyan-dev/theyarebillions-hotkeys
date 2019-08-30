@@ -1,6 +1,8 @@
 #Include update-check.ahk
 #Include functions.ahk
 
+global resolution_checked := false
+
 ; Keeps track of which menu is open based on what keys have been hit
 global active_menu := "none"
 global previous_menu := "none"
@@ -24,6 +26,9 @@ return
 ~7 Up::
 ~8 Up::
 ~F2 Up::
+	if !resolution_checked
+		checkResolution()
+
 	checkSelection()
 return
 

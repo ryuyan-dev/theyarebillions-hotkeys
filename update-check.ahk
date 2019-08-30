@@ -9,7 +9,7 @@ if (http.Status = 200) {
 	result := JSON.Load(http.ResponseText)
 	if (result[1].tag_name <> version) {
 		MsgBox, 4, New Version Available, % "New version released: " result[1].tag_name "`nYour version: " version "`nWould you like to visit the download page?"
-	IfMsgBox Yes
-		Run % result[1].html_url
+		IfMsgBox Yes
+			Run % result[1].html_url
 	}
 }
