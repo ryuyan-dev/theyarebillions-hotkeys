@@ -31,7 +31,13 @@ getSelectionColorData() {
 	barracks_color := 0
 	engineering_color := 0
 	
-	if (game_size[1] >= 2560) and (game_size[2] >= 1080) {
+	if (game_size[1] >= 2560) and (game_size[2] >= 1440) {
+		x := 840
+		y := 1300
+		build_color := 0x0E0C09
+		barracks_color := 0x2C4658
+		engineering_color := 0x707372
+	} else if (game_size[1] >= 2560) and (game_size[2] >= 1080) {
 		x := 950
 		y := 950
 		build_color := 0x1E2722
@@ -130,7 +136,11 @@ getPlacementColorData() {
 	y := 0
 	button_color := 0
 	
-	if (game_size[1] >= 2560) and (game_size[2] >= 1080) {
+	if (game_size[1] >= 2560) and (game_size[2] >= 1440) {
+		x := 1800
+		y := 1380
+		button_color := 0x053C2C
+	} else if (game_size[1] >= 2560) and (game_size[2] >= 1080) {
 		x := 1675
 		y := 1030
 		button_color := 0x043929
@@ -224,6 +234,9 @@ getCommandCardBounds() {
 	y_max := 0
 	
 	if (game_size[1] >= 2560) {
+		x_min := 1650
+		x_max := 2034
+	} else if (game_size[1] >= 2560) and (game_size[2] >= 1080) {
 		x_min := 1562
 		x_max := 1850
 	} else if (game_size[1] >= 1920) {
@@ -249,7 +262,10 @@ getCommandCardBounds() {
 		x_max := 1020
 	}
 	
-	if (game_size[2] >= 1080) {
+	if (game_size[2] >= 1440) {
+		y_min := 1194
+		y_max := 1416
+	} else if (game_size[2] >= 1080) {
 		y_min := 896
 		y_max := 1066
 	} else if (game_size[2] >= 1054) {

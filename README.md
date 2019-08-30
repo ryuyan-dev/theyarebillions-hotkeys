@@ -25,8 +25,11 @@ The grid layout is similar to the StarCraft 2 Grid hotkey layout as well as game
 - 1768x992
 - 1920x1080
 - 2560x1080
+- 2560x1440
 
 __Windowed Mode and Full Borderless Window Only__
+
+If you use a different resolution that you don't see in the list above, please [submit a new issue here](https://github.com/c64-ryan/theyarebillions-hotkeys/issues/new) and I'll do my best to accomodate you.
 
 ## Usage
 
