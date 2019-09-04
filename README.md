@@ -47,7 +47,7 @@ __Important:__ This script works in windowed and full borderless window modes. I
 
 ## Donations
 
-I created this tool to make the game more enjoyable for myself. After I finished, I put in a lot of hours to make it more useful to others instead of just myself at the resolution that I play at. Due to the nature of the way that the scripts work, it took a lot of effort to get all of the different resolutions working and test them out. If you found this useful, send a few dollars my way, if you like!
+I created this tool to make the game more enjoyable for myself. After I finished, I put in a lot of hours to make it more useful to others instead of just myself at the resolution that I play at. Due to the nature of the way that the scripts work, it took a lot of effort to get all of the different resolutions working and to test them out. If you found this useful, send a few dollars my way, if you like!
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=WDDCNVUYT28JC)
 
