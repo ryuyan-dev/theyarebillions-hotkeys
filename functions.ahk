@@ -206,8 +206,10 @@ getPlacementColorData() {
 checkSelection() {
 	placement_color_data := getPlacementColorData()
 	if (placement_color_data[1] = placement_color_data[2]) {
-		previous_menu := active_menu
-		active_menu := "placement"
+		if (active_menu <> "placement") {
+			previous_menu := active_menu
+			active_menu := "placement"
+		}
 	} else {
 		selection_color_data := getSelectionColorData()
 		if (selection_color_data[1] <> selection_color_data[2])
